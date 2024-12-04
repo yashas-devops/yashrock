@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(thumb-1920-1371030.png);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    background-color: #ffcc00; /* Rockstar yellow */
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.star {
+    position: absolute;
+    top: 45%;
+    left: 43%;
+    font-size: 6rem;
+    color:white; /* Star color */
+}
+
+.text {
+    font-size: 6rem;
+    color: #000; /* R color */
+    font-weight: bold;
+    text-decoration: solid;
+    text-shadow: #000 5px 5px 5px;
+}
+.jos
+    {   
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        font-size:medium;
+        font-family: cursive;
+        font-weight: bold;
+
+    } 
+    .jo
+    {   
+        position: absolute;
+        top: 10%;
+        left:10%;
+        font-size: 250%;
+        font-family: cursive;
+        font-weight: bold;
+
+    } 
+
+.sign-in {
+    background-color: #ffcc00;
+    color: whitesmoke;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    position: absolute;
+    top:73%;
+    left:48%;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.sign-in:hover {
+    background-color: black;
+}

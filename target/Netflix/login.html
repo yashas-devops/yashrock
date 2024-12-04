@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rockstar Games Sign In</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(log.jpeg);
+            color: #fff;
+            display: flex;
+            justify-content: last baseline;
+            align-items: center;
+            height: 100vh;
+            margin: 4;
+        }
+        .container {
+            position: relative;
+            top:5%;
+            left:21%;
+            text-align: center;
+            border: 2px solid #E50914;
+            border-radius: 10px;
+            padding: 40px;
+            background-image: url(log.jpeg);
+        }
+        input[type="text"], input[type="password"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background-color: #262626;
+            color: #fff;
+        }
+        input[type="submit"] {
+            width: 80%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #E50914;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button{
+            position: relative;
+            top:25%;
+            left: -7%;
+            width: 20%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color:red;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #b20610;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <!-- You can include a logo image here -->
+            <!-- <img src="path/to/logo.png" alt="Rockstar Games Logo"> -->
+        </div>
+        <h1>Sign In</h1>
+        <form action="submit-your-form-url">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Sign In">
+        </form>
+    </div>
+    <button><a href="sign.html">WATCH TRAILER</a></button>
+</body>
+</html>
