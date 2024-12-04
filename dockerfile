@@ -1,2 +1,2 @@
 FROM tomcat
-ADD target/Netflix.war /uar/local/tomcat/webapps
+ADD target/Netflix.war /usr/local/tomcat/webapps
